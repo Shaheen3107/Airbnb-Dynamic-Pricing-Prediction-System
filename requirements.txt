@@ -1,19 +1,18 @@
-# Streamlit app requirements
+# Minimal requirements for Streamlit Cloud ML app
 
-# Streamlit itself
+# Core
 streamlit==1.28.0
-
-# Core data packages
 numpy==1.26.5
 pandas==2.0.3
 
 # Machine Learning
 scikit-learn==1.3.2
-
-# Visualization
-matplotlib==3.8.1
-seaborn==0.13.2
-
-# Optional helpers
 joblib==1.3.2  # for saving/loading models
 
+# Visualization
+matplotlib==3.8.0
+seaborn==0.12.2
+plotly==5.17.0
+
+# Optional
+rich==14.3.3  # improves exception logging in Streamlit
