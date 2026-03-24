@@ -128,6 +128,9 @@ project/
 - Learned model selection based on performance
 - Implemented real-world deployment using Streamlit
 
+## 🚀 Live App
+👉 https://https://airbnb-dynamic-pricing-prediction-system-jv5nxbkmzeegwrpk4q74x.streamlit.app
+
 ## 👩‍💻 Author
 
 Shaheen Akram
