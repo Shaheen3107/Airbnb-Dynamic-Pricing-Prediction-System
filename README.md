@@ -80,15 +80,15 @@ Linear Regression (Best Performing Model)
 ---
 
 ## 💾 Model Saving
-```python
 joblib.dump(model, "model.pkl")
+
 joblib.dump(columns, "columns.pkl")
 
-🚀 Deployment using Streamlit
+## 🚀 Deployment using Streamlit
 
 The trained model is deployed using Streamlit to create an interactive web application.
 
-🔹 Features:
+## Features:
 
 User inputs property details
 
@@ -96,22 +96,23 @@ Model predicts price instantly
 
 Simple and interactive UI
 
-🔹 Run the app:
+## Run the app:
 streamlit run app.py
-🎯 Outcome
+
+## 🎯 Outcome:
 
 The deployed application allows users to predict Airbnb prices in real-time. This project demonstrates an end-to-end machine learning workflow including data preprocessing, model building, evaluation, tuning, and deployment.
 
-##📁 Project Structure    
+## 📁 Project Structure
 
 project/
-│
-├── notebook.ipynb        # ML pipeline (EDA → Model)
-├── app.py                # Streamlit app
-├── model.pkl             # Saved model
-├── columns.pkl           # Feature columns
-├── listings.csv          # Dataset
-└── README.md             # Project documentation
+
+├── notebook.ipynb        
+├── app.py               
+├── model.pkl             
+├── columns.pkl           
+├── listings.csv          
+└── README.md             
 
 ## 🚀 Future Improvements
 - Add more features like seasonality and location clustering
@@ -120,14 +121,14 @@ project/
 - Use advanced models like XGBoost
 - Add real-time data integration
 
-## 🚀 Future Improvements
-- Add more features like seasonality and location clustering
-- Improve UI with dropdowns for categorical variables
-- Deploy on cloud platforms (Streamlit Cloud / AWS)
-- Use advanced models like XGBoost
-- Add real-time data integration
+## 💡 Key Learnings
+- Built an end-to-end machine learning pipeline
+- Understood importance of feature engineering
+- Compared multiple regression models using RMSE
+- Learned model selection based on performance
+- Implemented real-world deployment using Streamlit
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Shaheen Akram
 
