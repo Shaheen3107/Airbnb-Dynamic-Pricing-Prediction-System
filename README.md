@@ -129,7 +129,7 @@ project/
 - Implemented real-world deployment using Streamlit
 
 ## 🚀 Live App
-👉 https://https://airbnb-dynamic-pricing-prediction-system-jv5nxbkmzeegwrpk4q74x.streamlit.app/
+👉 https://airbnb-dynamic-pricing-prediction-system-jv5nxbkmzeegwrpk4q74x.streamlit.app/
 
 ## 👩‍💻 Author
 
