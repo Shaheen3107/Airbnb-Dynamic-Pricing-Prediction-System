@@ -2,13 +2,14 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
+print("NumPy version:", np.__version__)
 
 # Sklearn models
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.tree import DecisionTreeRegressor
 
-model = joblib.load("model.pkl")
+model = joblib.load("model_new.pkl")
 columns = joblib.load("columns.pkl")
 
 st.title("🏡 Airbnb Price Prediction")
@@ -52,6 +53,7 @@ for col in input_data.columns:
 selected_col = f"room_type_{room_type}"
 if selected_col in input_data.columns:
     input_data[selected_col] = 1
+
 
 if st.button("Predict"):
     prediction = model.predict(input_data)[0]
